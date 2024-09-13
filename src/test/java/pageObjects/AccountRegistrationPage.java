@@ -61,6 +61,10 @@ public class AccountRegistrationPage extends BasePage {
 	public void setConfirmPassowrd(String confirmPassword) {
 		txtConfirmPassword.sendKeys(confirmPassword);
 	}
+	
+	public void setPrivacyPolicy() {
+		chkdPolicy.click();
+	}
 
 	public void clickAgree() {
 		chkdPolicy.click();

@@ -1,0 +1,60 @@
+package testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.AccountRegistrationPage;
+import pageObjects.HomePage;
+
+public class TC001_AccountRegistrationTest extends BaseClass{
+
+//	@Test(enabled = false)
+//	void verify_account_registration_01() {
+//
+//		HomePage hp = new HomePage(driver);
+//		hp.clickMyAccount();
+//		hp.clickRegister();
+//
+//		AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
+//		regPage.setFirstName("Shambhu");
+//		regPage.setLastName("Kumar");
+//		regPage.setEmail("Sham@gmail.com");
+//		regPage.setTelephone("7687546789");
+//		regPage.setPassword("1234");
+//		regPage.setConfirmPassowrd("1234");
+//		regPage.setPrivacyPolicy();
+//		regPage.clickContinue();
+//
+//		String confmsg = regPage.getConfirmationMsg();
+//
+//		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+//	}
+
+	@Test
+	void verify_account_registration() {
+
+		HomePage hp = new HomePage(driver);
+		hp.clickMyAccount();
+		hp.clickRegister();
+
+		AccountRegistrationPage regPage = new AccountRegistrationPage(driver);
+		regPage.setFirstName(randomString().toUpperCase());
+		regPage.setLastName(randomString().toUpperCase());
+		regPage.setEmail(randomString() + "@gmail.com"); // Random generated the email
+		regPage.setTelephone("7687546789");
+		
+		String password = randomAlphNumeric();
+		regPage.setPassword(password);
+		regPage.setConfirmPassowrd(password);
+		
+		regPage.setPrivacyPolicy();
+		regPage.clickContinue();
+
+		String confmsg = regPage.getConfirmationMsg();
+
+		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+	}
+
+	
+}
