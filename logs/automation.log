@@ -223,4 +223,57 @@
  13:34:47.827 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
  13:34:47.874 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
  13:34:52.892 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 13:44:51.084 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\test-output\testng-failed.xml"
+ 13:44:51.355 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\test-output\testng-failed.xml
+
+ 13:44:58.784 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 13:45:01.141 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 18:53:02.626 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\master.xml"
+ 18:53:02.949 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\master.xml
+
+ 18:53:09.518 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:53:09.654 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 18:53:10.708 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 18:53:10.713 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 18:53:13.009 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 18:53:13.050 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 18:53:17.824 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 18:53:20.116 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 18:54:31.747 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\master.xml"
+ 18:54:32.041 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\master.xml
+
+ 18:54:40.196 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:54:40.335 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 18:54:41.002 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 18:54:41.009 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 18:54:42.790 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 18:54:42.846 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 18:54:47.536 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 18:54:48.992 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 18:55:19.579 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\master.xml"
+ 18:55:19.884 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\master.xml
+
+ 18:55:24.397 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:55:24.576 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 18:55:25.284 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 18:55:25.284 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 18:55:26.949 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 18:55:27.015 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 18:55:31.562 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 18:55:33.159 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 18:58:14.518 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\crossbrowsertesting.xml"
+ 18:58:14.856 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\crossbrowsertesting.xml
+
+ 18:58:15.292 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:58:23.822 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:58:23.823 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 18:58:23.947 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 18:58:24.010 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 18:58:51.164 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 18:58:51.174 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
  
