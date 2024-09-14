@@ -53,6 +53,8 @@ public class BaseClass {
 			// os
 			if (os.equalsIgnoreCase("windows")) {
 				capabilities.setPlatform(Platform.WIN11);
+			} else if (os.equalsIgnoreCase("linux")) {
+				capabilities.setPlatform(Platform.LINUX);
 			} else if (os.equalsIgnoreCase("mac")) {
 				capabilities.setPlatform(Platform.MAC);
 			} else {
@@ -68,6 +70,8 @@ public class BaseClass {
 			case "edge":
 				capabilities.setBrowserName("MicrosoftEdge");
 				break;
+			case "firefox":
+				capabilities.setBrowserName("firefox");
 			default:
 				System.out.println("No Matching browser");
 				return;
@@ -77,7 +81,9 @@ public class BaseClass {
 
 		}
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+		if (p.getProperty("execution_env").equalsIgnoreCase("local"))
+
+		{
 
 			switch (br.toLowerCase()) {
 			case "chrome":

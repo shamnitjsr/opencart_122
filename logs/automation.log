@@ -276,4 +276,63 @@
  18:58:24.010 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
  18:58:51.164 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
  18:58:51.174 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 23:55:47.971 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 23:55:48.685 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 23:59:53.242 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 23:59:53.539 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:00:38.359 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:00:38.623 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:00:44.423 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 00:00:44.592 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 00:00:45.227 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 00:00:45.240 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 00:00:46.602 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 00:00:46.655 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 00:00:51.066 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 00:00:52.558 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 00:01:33.491 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:01:33.766 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:03:52.374 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:03:52.687 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:06:18.306 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:06:18.642 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:12:20.690 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 00:18:39.318 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:18:39.886 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:18:46.100 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 00:18:46.414 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 00:18:47.099 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 00:18:47.103 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 00:18:48.901 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 00:18:49.011 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 00:18:51.751 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 00:18:53.256 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 00:18:54.602 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 00:24:09.069 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml"
+ 00:24:09.416 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\shamb\eclipse-workspace\opencart_122\grid-docker.xml
+
+ 00:24:13.980 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
+ 00:24:14.342 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link...
+ 00:24:15.164 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link...
+ 00:24:15.168 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing Customer details...
+ 00:24:16.933 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+ 00:24:17.017 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+ 00:24:19.659 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest ******
+ 00:24:21.175 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest ******
+ 00:24:22.291 [main] INFO  testCases.TC001_AccountRegistrationTest - ***** Starting TC001_AccountRegistrationTest *****
  
