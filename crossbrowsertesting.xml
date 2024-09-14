@@ -3,6 +3,11 @@
 
 <!-- thread-count="5" parallel="tests" -->
 <suite name="Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	
 	<test name="firefoxtest">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="firefox" />

@@ -31,7 +31,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 //		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
 //	}
 
-	@Test
+	@Test(groups={"Regression","Master"})
 	void verify_account_registration() {
 
 		logger.info("***** Starting TC001_AccountRegistrationTest *****");
