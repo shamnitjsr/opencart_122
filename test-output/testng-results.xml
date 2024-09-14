@@ -1,67 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T21:30:05 IST" name="Suite" finished-at="2024-09-13T21:30:55 IST" duration-ms="50088">
+  <suite started-at="2024-09-14T11:06:01 IST" name="Master Suite" finished-at="2024-09-14T11:06:52 IST" duration-ms="51310">
     <groups>
     </groups>
-    <test started-at="2024-09-13T21:30:05 IST" name="firefoxtest" finished-at="2024-09-13T21:30:23 IST" duration-ms="17522">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@70ab80e3]" started-at="2024-09-13T21:30:15 IST" name="setup" finished-at="2024-09-13T21:30:20 IST" duration-ms="5476" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@70ab80e3]" started-at="2024-09-13T21:30:20 IST" name="verify_login" finished-at="2024-09-13T21:30:22 IST" duration-ms="1574" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@70ab80e3]" started-at="2024-09-13T21:30:22 IST" name="tearDown" finished-at="2024-09-13T21:30:23 IST" duration-ms="854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5003041b]" started-at="2024-09-13T21:30:05 IST" name="setup" finished-at="2024-09-13T21:30:11 IST" duration-ms="5890" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5003041b]" started-at="2024-09-13T21:30:11 IST" name="verify_account_registration" finished-at="2024-09-13T21:30:14 IST" duration-ms="2715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5003041b]" started-at="2024-09-13T21:30:14 IST" name="tearDown" finished-at="2024-09-13T21:30:15 IST" duration-ms="956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- firefoxtest -->
-    <test started-at="2024-09-13T21:30:23 IST" name="chrometest" finished-at="2024-09-13T21:30:37 IST" duration-ms="13970">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@7889a1ac]" started-at="2024-09-13T21:30:31 IST" name="setup" finished-at="2024-09-13T21:30:35 IST" duration-ms="4061" status="PASS">
+    <test started-at="2024-09-14T11:06:01 IST" name="Test" finished-at="2024-09-14T11:06:52 IST" duration-ms="51310">
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:01 IST" name="setup" finished-at="2024-09-14T11:06:05 IST" duration-ms="3794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,95 +23,116 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@7889a1ac]" started-at="2024-09-13T21:30:35 IST" name="verify_login" finished-at="2024-09-13T21:30:36 IST" duration-ms="1482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@7889a1ac]" started-at="2024-09-13T21:30:36 IST" name="tearDown" finished-at="2024-09-13T21:30:37 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@62d363ab]" started-at="2024-09-13T21:30:23 IST" name="setup" finished-at="2024-09-13T21:30:28 IST" duration-ms="5037" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:06 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-14T11:06:08 IST" duration-ms="1977" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[shamnitjsr@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[NewYorkLife@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@62d363ab]" started-at="2024-09-13T21:30:28 IST" name="verify_account_registration" finished-at="2024-09-13T21:30:31 IST" duration-ms="3034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@62d363ab]" started-at="2024-09-13T21:30:31 IST" name="tearDown" finished-at="2024-09-13T21:30:31 IST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- chrometest -->
-    <test started-at="2024-09-13T21:30:37 IST" name="edgetest" finished-at="2024-09-13T21:30:55 IST" duration-ms="18559">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@27cf3151]" started-at="2024-09-13T21:30:47 IST" name="setup" finished-at="2024-09-13T21:30:52 IST" duration-ms="5826" status="PASS">
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:08 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-14T11:06:19 IST" duration-ms="11024" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[sham123@yahoo.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[Sham123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@27cf3151]" started-at="2024-09-13T21:30:52 IST" name="verify_login" finished-at="2024-09-13T21:30:54 IST" duration-ms="1415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@27cf3151]" started-at="2024-09-13T21:30:54 IST" name="tearDown" finished-at="2024-09-13T21:30:55 IST" duration-ms="1271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@5ef8df1e]" started-at="2024-09-13T21:30:37 IST" name="setup" finished-at="2024-09-13T21:30:43 IST" duration-ms="6252" status="PASS">
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:19 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-14T11:06:30 IST" duration-ms="11025" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows]]>
+                <![CDATA[raju123@yahoo.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[Raju123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5ef8df1e]" started-at="2024-09-13T21:30:43 IST" name="verify_account_registration" finished-at="2024-09-13T21:30:45 IST" duration-ms="2473" status="PASS">
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:30 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-14T11:06:41 IST" duration-ms="11032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kalua@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xzse123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@5ef8df1e]" started-at="2024-09-13T21:30:45 IST" name="tearDown" finished-at="2024-09-13T21:30:47 IST" duration-ms="1315" status="PASS">
+        </test-method> <!-- verify_loginDDT -->
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:41 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2024-09-14T11:06:52 IST" duration-ms="11064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDDT@59a67c3a]" started-at="2024-09-14T11:06:52 IST" name="tearDown" finished-at="2024-09-14T11:06:52 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </test> <!-- edgetest -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
 </testng-results>

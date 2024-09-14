@@ -21,19 +21,20 @@ public class BaseClass {
 	public static WebDriver driver;
 
 	public Logger logger;
-	
+
 	public Properties p;
 
-	@BeforeClass
 	@Parameters({ "os", "browser" })
-	public void setup(String os, String br) throws IOException{
+	@BeforeClass
 
-		//Loading config.properties file
-		
+	public void setup(String os, String br) throws IOException {
+
+		// Loading config.properties file
+
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		p = new Properties();
 		p.load(file);
-		
+
 		logger = LogManager.getLogger(this.getClass());
 
 		switch (br.toLowerCase()) {
